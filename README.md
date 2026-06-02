@@ -73,7 +73,7 @@ Pre-training leverages **target-only (cold-start) users**.
 Example:
 
 ```bash
-python3 main_aux_pretrain.py \
+python3 main_pre.py \
   --dataset=movie_to_music \
   --lamda=0.3 \
   --noise_steps=1000 \
